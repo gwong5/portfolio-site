@@ -1,0 +1,16 @@
+.sidenav {
+  background-image: url("/images/sidenav.png");
+  height: 100%;
+  width: 30%;
+}
+
+.logo {
+  margin: 25%;
+  background-color: white;
+  width: 45%;
+}
+
+.socialmedia img {
+  margin: 16px 3px 0px 6px;
+  height:30px;
+}

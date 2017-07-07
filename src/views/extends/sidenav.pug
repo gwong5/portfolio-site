@@ -1,0 +1,36 @@
+html
+  head
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    link(type="text/css" rel="stylesheet" href="/styles/materialize.min.css")
+    link(type="text/css" rel="stylesheet" href="/styles/style.css")
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title My Portfolio
+  body
+    .sidenav
+      nav(style="background-color:rebeccapurple")
+        ul
+          li
+            a(href='#') Projects
+          li
+            a(href='#') Profile
+          li
+            a(href='#') Contact Me
+        .socialmedia
+          a(href="https://www.facebook.com/gregory.wong2" rel="noopener noreferrer" target="_blank")
+            img(src="/images/facebook.svg")
+          a(href="https://www.linkedin.com/in/gregory-wong-67810916/" rel="noopener noreferrer" target="_blank")
+            img(src="/images/linkedin.svg")
+          a(href="https://twitter.com/gwong_5?lang=en" rel="noopener noreferrer" target="_blank")
+            img(src="/images/twitter.svg")
+          a(href="https://github.com/kousagi1012" rel="noopener noreferrer" target="_blank")
+            img(src="/images/github.svg")
+      .logo
+        img(src="/images/logo.png")
+    block content
+
+    script(type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous")
+    script(type="text/javascript" src="/scripts/materialize.min.js")
+
+    block scripts
